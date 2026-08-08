@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Navjyot Nishant · Strategic Technology Leader &amp; Engagement Manager, Enterprise Solution Architecture">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f17"/>
+      <stop offset="0.55" stop-color="#0d131f"/>
+      <stop offset="1" stop-color="#0a0e16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#1b2536" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0 0L6 3L0 6Z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <!-- ground -->
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#grid)" opacity="0.5"/>
+  <rect x="1" y="1" width="1198" height="378" fill="none" stroke="#22d3ee" stroke-opacity="0.25" stroke-width="1.5"/>
+
+  <!-- corner registration marks -->
+  <g stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.7">
+    <path d="M20 40V20H40"/><path d="M1180 40V20H1160"/>
+    <path d="M20 340V360H40"/><path d="M1180 340V360H1160"/>
+  </g>
+
+  <!-- spec label -->
+  <text x="42" y="58" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3" fill="#64748b">ENTERPRISE · SOLUTION · ARCHITECTURE</text>
+  <text x="1158" y="58" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3" fill="#64748b">DESIGN · BUILD · SHIP</text>
+
+  <!-- name -->
+  <text x="42" y="140" font-family="ui-monospace,Menlo,monospace" font-size="62" font-weight="700" fill="#e2e8f0" letter-spacing="1">NAVJYOT NISHANT</text>
+  <rect x="44" y="158" width="470" height="3" fill="url(#accent)" filter="url(#glow)"/>
+
+  <!-- role: EM + architect -->
+  <text x="46" y="196" font-family="ui-monospace,Menlo,monospace" font-size="19" fill="#22d3ee" letter-spacing="1">STRATEGIC TECHNOLOGY LEADER</text>
+  <text x="46" y="222" font-family="ui-monospace,Menlo,monospace" font-size="15" fill="#94a3b8" letter-spacing="1">Engagement Manager · Enterprise Solution &amp; Multi-Cloud Architect</text>
+
+  <!-- value pipeline: the EM-who-architects arc -->
+  <g font-family="ui-monospace,Menlo,monospace" font-size="12.5" fill="#cbd5e1">
+    <g>
+      <rect x="46" y="256" width="158" height="46" rx="6" fill="#0f1a2b" stroke="#22d3ee" stroke-opacity="0.6"/>
+      <text x="125" y="277" text-anchor="middle" fill="#22d3ee">ENGAGE</text>
+      <text x="125" y="293" text-anchor="middle" font-size="9.5" fill="#64748b">clients · strategy</text>
+    </g>
+    <path d="M204 279H244" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="244" y="256" width="158" height="46" rx="6" fill="#0f1a2b" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="323" y="277" text-anchor="middle" fill="#38bdf8">ARCHITECT</text>
+      <text x="323" y="293" text-anchor="middle" font-size="9.5" fill="#64748b">cloud · data · AI</text>
+    </g>
+    <path d="M402 279H442" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="442" y="256" width="158" height="46" rx="6" fill="#0f1a2b" stroke="#38bdf8" stroke-opacity="0.6"/>
+      <text x="521" y="277" text-anchor="middle" fill="#38bdf8">DELIVER</text>
+      <text x="521" y="293" text-anchor="middle" font-size="9.5" fill="#64748b">scale · secure · lean</text>
+    </g>
+    <path d="M600 279H640" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <g>
+      <rect x="640" y="256" width="158" height="46" rx="6" fill="#0f1a2b" stroke="#fbbf24" stroke-opacity="0.6"/>
+      <text x="719" y="277" text-anchor="middle" fill="#fbbf24">OUTCOME</text>
+      <text x="719" y="293" text-anchor="middle" font-size="9.5" fill="#64748b">business value</text>
+    </g>
+  </g>
+
+  <!-- right-side node cluster: real stack -->
+  <g transform="translate(910,150)" opacity="0.95">
+    <circle cx="0" cy="0" r="6" fill="#22d3ee" filter="url(#glow)"/>
+    <g stroke="#22d3ee" stroke-opacity="0.45" stroke-width="1.2" fill="none">
+      <path d="M0 0L120 -68"/><path d="M0 0L150 4"/><path d="M0 0L108 78"/>
+      <path d="M0 0L-46 -84"/><path d="M0 0L196 -28"/><path d="M0 0L176 62"/>
+    </g>
+    <g fill="#0f1a2b" stroke="#38bdf8" stroke-opacity="0.7">
+      <circle cx="120" cy="-68" r="15"/><circle cx="150" cy="4" r="15"/>
+      <circle cx="108" cy="78" r="15"/><circle cx="196" cy="-28" r="12"/>
+      <circle cx="176" cy="62" r="12"/><circle cx="-46" cy="-84" r="12"/>
+    </g>
+    <g font-family="ui-monospace,Menlo,monospace" font-size="9" fill="#7dd3fc" text-anchor="middle">
+      <text x="120" y="-65">AWS</text><text x="150" y="7">GCP</text>
+      <text x="108" y="81">OCI</text><text x="196" y="-25">AI</text>
+      <text x="176" y="65">DATA</text>
+    </g>
+  </g>
+
+  <!-- footer -->
+  <text x="42" y="356" font-family="ui-monospace,Menlo,monospace" font-size="11" letter-spacing="2" fill="#475569">FINTECH · RETAIL · MEDIA · HITECH  ·  GREATER MINNEAPOLIS–ST. PAUL</text>
+  <text x="1158" y="356" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" letter-spacing="2" fill="#475569">CYBAGE SOFTWARE</text>
+</svg>
