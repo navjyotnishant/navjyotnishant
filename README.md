@@ -16,7 +16,7 @@
 ### 👋 About
 
 > **Engagement Manager & Enterprise Solution Architect** at Cybage,
-> who still writes the code. Databases in 2008, and I kept following the
+> hands-on with the code. Databases in 2008, and I kept following the
 > hard part upward: distributed systems, multi-cloud, and now the AI layer.
 
 A bit of what I work with, hands-on:
